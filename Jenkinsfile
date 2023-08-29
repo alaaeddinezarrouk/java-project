@@ -6,7 +6,7 @@ pipeline{
         jdk 'Java17'
         maven 'Maven3'
     } 
-    environments{
+    environment{
         APP_NAME="java-project"
         RELEASE="1.0.0"
         DOCKER_USER= "alaaeddinezarrouk"
